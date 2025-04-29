@@ -26,34 +26,10 @@ Local Storage: For caching and local data handling using services
 # Project Structure
 
 The app follows a modular architecture for scalability and maintainability.
-
 ## Key Directories:
-models/: Contains data models such as illness.dart, user_profile.dart, community_post.dart, and more. These represent structured objects used throughout the app.
-screens/: Contains all major UI screens such as:
-• home_screen.dart: Main dashboard screen
-• first_aid_screen.dart & first_aid_detail_screen.dart: Guide for first aid topics
-• login_screen.dart & register_screen.dart: Authentication interface
-• symptom_analysis_screen.dart: Interface for entering and analyzing symptoms
-• training_modules_screen.dart & training_module_detail_screen.dart: Learning resources
-• hospital_locator_screen.dart: Map-based locator for nearby hospitals
-• community_support_screen.dart & create_community_post_screen.dart: Social features
-• health_journal_screen.dart: Daily health log and reflection
-• services/: Business logic layer that handles external communication, logic processing, and helper functions. For example:
-• auth_service.dart: Handles user authentication
-• firebase_service.dart: Central service for Firestore operations
-• symptom_analysis_service.dart: Processes user-entered symptoms
-• emergency_service.dart: Manages emergency call functionality
-• training_module_service.dart: Retrieves and filters training resources
-widgets/: Reusable UI components including:
-• custom_app_bar.dart
-• custom_bottom_nav_bar.dart
-• custom_card.dart
-• custom_button.dart
-• screen_header.dart
-• custom_search_bar.dart
-• common/: Includes shared constants, themes, and configurations like app_theme.dart.
-• firebase_options.dart: Auto-generated file used to configure the Firebase project.
-• main.dart: The entry point of the application that sets up the main navigation and authentication wrapper.
+The **First Aid Health Care App** follows a well-structured and modular project architecture to ensure maintainability and scalability. The `models/` directory contains all data models such as `illness.dart`, `user_profile.dart`, and `community_post.dart`, which represent the structured data used throughout the application. The `screens/` directory includes all the major user interface screens, such as `home_screen.dart` for the main dashboard, `first_aid_screen.dart` and `first_aid_detail_screen.dart` for accessing detailed first aid instructions, and `login_screen.dart` along with `register_screen.dart` for managing user authentication. Additional screens include `symptom_analysis_screen.dart` for analyzing user symptoms, `training_modules_screen.dart` and `training_module_detail_screen.dart` for learning resources, `hospital_locator_screen.dart` for locating nearby hospitals using map services, `community_support_screen.dart` and `create_community_post_screen.dart` for user discussions and peer interaction, and `health_journal_screen.dart` for maintaining a daily health log.
+
+The `services/` directory serves as the core business logic layer, containing files such as `auth_service.dart` for managing authentication processes, `firebase_service.dart` for interacting with Firebase Firestore, `symptom_analysis_service.dart` for processing symptom data, `emergency_service.dart` for managing emergency calls, and `training_module_service.dart` for fetching and managing training resources. To ensure consistency and reusability across the user interface, the `widgets/` directory includes common UI components such as `custom_app_bar.dart`, `custom_bottom_nav_bar.dart`, `custom_card.dart`, `custom_button.dart`, `screen_header.dart`, and `custom_search_bar.dart`. Shared configurations and styling constants are managed in the `common/` directory, including the centralized theming file `app_theme.dart`. The project is bootstrapped through `main.dart`, which serves as the application's entry point and sets up both the navigation logic and authentication wrappers. Additionally, `firebase_options.dart` is used for Firebase configuration, enabling seamless integration with the backend.
 
 This app follows the separation of concerns principle by isolating data models, service layers, UI screens, and reusable widgets. It allows for easier testing, extension, and team collaboration.
 
