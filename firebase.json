@@ -1,0 +1,45 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "first-aid-health-care",
+          "appId": "1:735064828729:android:c3252ca633567939d316e8",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "first-aid-health-care",
+          "appId": "1:735064828729:ios:0950fe64d4f9fff7d316e8",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "first-aid-health-care",
+          "appId": "1:735064828729:ios:0950fe64d4f9fff7d316e8",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "first-aid-health-care",
+          "configurations": {
+            "android": "1:735064828729:android:c3252ca633567939d316e8",
+            "ios": "1:735064828729:ios:0950fe64d4f9fff7d316e8",
+            "macos": "1:735064828729:ios:0950fe64d4f9fff7d316e8",
+            "web": "1:735064828729:web:e6a41a2ef1beb1dfd316e8",
+            "windows": "1:735064828729:web:b6f2952bcdcc8a77d316e8"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}

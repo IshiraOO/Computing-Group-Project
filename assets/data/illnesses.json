@@ -1,0 +1,288 @@
+[
+  {
+    "id": "asthma",
+    "name": "Asthma",
+    "description": "Asthma is a condition in which your airways narrow and swell and may produce extra mucus. This can make breathing difficult and trigger coughing, a whistling sound (wheezing) when you breathe out and shortness of breath.",
+    "symptoms": [
+      "Shortness of breath",
+      "Chest tightness or pain",
+      "Wheezing when exhaling",
+      "Trouble sleeping caused by shortness of breath, coughing or wheezing",
+      "Coughing or wheezing attacks that are worsened by a respiratory virus"
+    ],
+    "treatments": [
+      "Quick-relief (rescue) medications such as short-acting beta agonists",
+      "Long-term control medications such as inhaled corticosteroids",
+      "Breathing exercises",
+      "Avoiding triggers",
+      "Using a peak flow meter to monitor breathing"
+    ],
+    "preventions": [
+      "Identify and avoid asthma triggers",
+      "Take prescribed medications as directed",
+      "Monitor breathing to identify early signs of worsening asthma",
+      "Get vaccinated for influenza and pneumonia",
+      "Identify and treat attacks early"
+    ],
+    "severity": "moderate",
+    "imageUrl": "https://example.com/images/asthma.jpg",
+    "requiresMedicalAttention": true,
+    "additionalInfo": {
+      "commonTriggers": ["Allergens", "Exercise", "Cold air", "Air pollutants", "Respiratory infections"],
+      "riskFactors": ["Family history", "Allergies", "Obesity", "Smoking", "Exposure to secondhand smoke"]
+    }
+  },
+  {
+    "id": "allergic_reaction",
+    "name": "Allergic Reaction",
+    "description": "An allergic reaction is the way your body responds to the allergen, a substance that's harmless to most people. But in a person with an allergy, the body's immune system treats the allergen as an invader and overreacts, causing symptoms that can range from annoying to serious or life-threatening.",
+    "symptoms": [
+      "Sneezing and an itchy, runny or blocked nose",
+      "Itchy, red, watering eyes",
+      "Wheezing, chest tightness, shortness of breath and a cough",
+      "Raised, itchy, red rash (hives)",
+      "Swollen lips, tongue, eyes or face",
+      "Stomach pain, feeling sick, vomiting or diarrhea",
+      "Dry, red and cracked skin"
+    ],
+    "treatments": [
+      "Antihistamines to reduce or block histamines",
+      "Decongestants for nasal congestion",
+      "Corticosteroid creams for skin reactions",
+      "Epinephrine (adrenaline) for severe reactions (anaphylaxis)",
+      "Immunotherapy for long-term treatment"
+    ],
+    "preventions": [
+      "Avoid known allergens",
+      "Keep a food diary to identify food allergies",
+      "Wear a medical alert bracelet if you have a severe allergy",
+      "Carry emergency medications if prescribed",
+      "Read food labels carefully"
+    ],
+    "severity": "varies",
+    "imageUrl": "https://example.com/images/allergic_reaction.jpg",
+    "requiresMedicalAttention": true,
+    "additionalInfo": {
+      "commonAllergens": ["Pollen", "Dust mites", "Animal dander", "Insect stings", "Foods (nuts, shellfish, etc.)", "Medications"],
+      "anaphylaxisSigns": ["Difficulty breathing", "Swelling of throat and tongue", "Dizziness", "Loss of consciousness"]
+    }
+  },
+  {
+    "id": "dehydration",
+    "name": "Dehydration",
+    "description": "Dehydration occurs when you use or lose more fluid than you take in, and your body doesn't have enough water and other fluids to carry out its normal functions. If you don't replace lost fluids, you will get dehydrated.",
+    "symptoms": [
+      "Extreme thirst",
+      "Less frequent urination",
+      "Dark-colored urine",
+      "Fatigue",
+      "Dizziness",
+      "Confusion",
+      "Dry mouth, lips and eyes",
+      "No tears when crying"
+    ],
+    "treatments": [
+      "Drinking water or other fluids with electrolytes",
+      "For infants and children, solutions like Pedialyte",
+      "For severe cases, intravenous fluids may be needed",
+      "Treating the underlying cause (vomiting, diarrhea, fever)"
+    ],
+    "preventions": [
+      "Drink plenty of fluids, especially during hot weather or when ill",
+      "Consume more fluids during physical activity",
+      "Avoid excessive alcohol consumption",
+      "Eat foods high in water content (fruits, vegetables)",
+      "Monitor fluid loss during illness"
+    ],
+    "severity": "varies",
+    "imageUrl": "https://example.com/images/dehydration.jpg",
+    "requiresMedicalAttention": true,
+    "additionalInfo": {
+      "riskGroups": ["Infants and children", "Elderly people", "People with chronic illnesses", "Athletes", "People living at high altitudes"],
+      "complications": ["Heat injury", "Urinary and kidney problems", "Seizures", "Low blood volume shock"]
+    }
+  },
+  {
+    "id": "heart_attack",
+    "name": "Heart Attack",
+    "description": "A heart attack occurs when blood flow to a part of your heart is blocked for a long enough time that part of the heart muscle is damaged or dies. The medical term for this is myocardial infarction.",
+    "symptoms": [
+      "Chest pain or discomfort that feels like pressure, squeezing, fullness or pain",
+      "Pain or discomfort in one or both arms, the back, neck, jaw or stomach",
+      "Shortness of breath",
+      "Cold sweat",
+      "Nausea",
+      "Lightheadedness",
+      "Unusual fatigue"
+    ],
+    "treatments": [
+      "Call emergency services immediately (911)",
+      "Chew and swallow aspirin if advised by emergency services",
+      "Take nitroglycerin if prescribed",
+      "Begin CPR if the person is unconscious",
+      "If an AED is available, follow the device instructions"
+    ],
+    "preventions": [
+      "Maintain a healthy diet low in saturated fat and cholesterol",
+      "Exercise regularly",
+      "Maintain a healthy weight",
+      "Control blood pressure and cholesterol",
+      "Don't smoke",
+      "Limit alcohol consumption",
+      "Manage stress",
+      "Get regular health screenings"
+    ],
+    "severity": "severe",
+    "imageUrl": "https://example.com/images/heart_attack.jpg",
+    "requiresMedicalAttention": true,
+    "additionalInfo": {
+      "riskFactors": ["Age", "Tobacco use", "High blood pressure", "High cholesterol", "Diabetes", "Family history", "Obesity", "Stress", "Physical inactivity"],
+      "womenSymptoms": ["Women may experience less obvious symptoms like fatigue, nausea, and back or jaw pain"]
+    }
+  },
+  {
+    "id": "stroke",
+    "name": "Stroke",
+    "description": "A stroke occurs when the blood supply to part of your brain is interrupted or reduced, preventing brain tissue from getting oxygen and nutrients. Brain cells begin to die in minutes. A stroke is a medical emergency, and prompt treatment is crucial.",
+    "symptoms": [
+      "Trouble speaking and understanding what others are saying",
+      "Paralysis or numbness of the face, arm or leg",
+      "Problems seeing in one or both eyes",
+      "Headache",
+      "Trouble walking"
+    ],
+    "treatments": [
+      "Call emergency services immediately (911)",
+      "Emergency IV medication (tPA) if it's an ischemic stroke",
+      "Emergency endovascular procedures",
+      "Surgery to remove blood and relieve pressure for hemorrhagic stroke",
+      "Rehabilitation therapy"
+    ],
+    "preventions": [
+      "Control high blood pressure",
+      "Lower cholesterol and saturated fat in your diet",
+      "Don't smoke",
+      "Control diabetes",
+      "Maintain a healthy weight",
+      "Exercise regularly",
+      "Drink alcohol in moderation, if at all",
+      "Treat obstructive sleep apnea",
+      "Avoid illegal drugs"
+    ],
+    "severity": "severe",
+    "imageUrl": "https://example.com/images/stroke.jpg",
+    "requiresMedicalAttention": true,
+    "additionalInfo": {
+      "FAST": ["Face drooping", "Arm weakness", "Speech difficulty", "Time to call 911"],
+      "types": ["Ischemic stroke (blocked artery)", "Hemorrhagic stroke (leaking or burst blood vessel)", "Transient ischemic attack (TIA or 'mini-stroke')"]
+    }
+  },
+  {
+    "id": "diabetes",
+    "name": "Diabetes",
+    "description": "Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose get into your cells to be used for energy.",
+    "symptoms": [
+      "Increased thirst",
+      "Frequent urination",
+      "Extreme hunger",
+      "Unexplained weight loss",
+      "Presence of ketones in the urine",
+      "Fatigue",
+      "Irritability",
+      "Blurred vision",
+      "Slow-healing sores",
+      "Frequent infections"
+    ],
+    "treatments": [
+      "Monitoring blood sugar",
+      "Insulin therapy for Type 1 diabetes",
+      "Oral medications or insulin for Type 2 diabetes",
+      "Healthy eating",
+      "Regular physical activity",
+      "Maintaining a healthy weight"
+    ],
+    "preventions": [
+      "Lose extra weight",
+      "Be more physically active",
+      "Eat healthy plant foods",
+      "Eat healthy fats",
+      "Skip fad diets and make healthier choices"
+    ],
+    "severity": "chronic",
+    "imageUrl": "https://example.com/images/diabetes.jpg",
+    "requiresMedicalAttention": true,
+    "additionalInfo": {
+      "types": ["Type 1 diabetes", "Type 2 diabetes", "Gestational diabetes"],
+      "complications": ["Heart disease", "Nerve damage (neuropathy)", "Kidney damage", "Eye damage", "Foot damage", "Skin conditions", "Hearing impairment", "Alzheimer's disease"]
+    }
+  },
+  {
+    "id": "food_poisoning",
+    "name": "Food Poisoning",
+    "description": "Food poisoning, also called foodborne illness, is illness caused by eating contaminated food. Infectious organisms — including bacteria, viruses and parasites — or their toxins are the most common causes of food poisoning.",
+    "symptoms": [
+      "Nausea",
+      "Vomiting",
+      "Watery or bloody diarrhea",
+      "Abdominal pain and cramps",
+      "Fever"
+    ],
+    "treatments": [
+      "Replace lost fluids and electrolytes",
+      "Ease back into eating with bland, low-fat, easy-to-digest foods",
+      "Rest",
+      "For severe cases, hospitalization may be required",
+      "Antibiotics may be prescribed for certain bacterial food poisoning"
+    ],
+    "preventions": [
+      "Wash hands, utensils and food surfaces often",
+      "Keep raw foods separate from ready-to-eat foods",
+      "Cook foods to a safe temperature",
+      "Refrigerate or freeze perishable foods promptly",
+      "Defrost food safely",
+      "Throw out food if in doubt"
+    ],
+    "severity": "varies",
+    "imageUrl": "https://example.com/images/food_poisoning.jpg",
+    "requiresMedicalAttention": false,
+    "additionalInfo": {
+      "commonCauses": ["Salmonella", "E. coli", "Listeria", "Norovirus"],
+      "riskGroups": ["Older adults", "Pregnant women", "Young children", "People with chronic diseases"]
+    }
+  },
+  {
+    "id": "concussion",
+    "name": "Concussion",
+    "description": "A concussion is a traumatic brain injury that affects your brain function. Effects are usually temporary but can include headaches and problems with concentration, memory, balance and coordination.",
+    "symptoms": [
+      "Headache",
+      "Temporary loss of consciousness",
+      "Confusion or feeling as if in a fog",
+      "Amnesia surrounding the traumatic event",
+      "Dizziness or 'seeing stars'",
+      "Ringing in the ears",
+      "Nausea or vomiting",
+      "Slurred speech",
+      "Fatigue"
+    ],
+    "treatments": [
+      "Physical and cognitive rest",
+      "Gradual return to normal activities",
+      "Over-the-counter pain relievers for headaches",
+      "Avoiding activities that could lead to another concussion"
+    ],
+    "preventions": [
+      "Wear appropriate protective equipment during sports and recreational activities",
+      "Follow safety rules and proper techniques in sports",
+      "Make sure the environment is safe (e.g., remove tripping hazards)",
+      "Use seat belts and child safety seats in motor vehicles"
+    ],
+    "severity": "moderate",
+    "imageUrl": "https://example.com/images/concussion.jpg",
+    "requiresMedicalAttention": true,
+    "additionalInfo": {
+      "warningSignsSeekEmergencyCare": ["Repeated vomiting", "Loss of consciousness for more than 30 seconds", "A headache that gets worse over time", "Changes in physical coordination", "Confusion or disorientation", "Slurred speech", "Seizures"],
+      "returnToPlay": ["Athletes should not return to play until cleared by a healthcare professional"]
+    }
+  }
+]

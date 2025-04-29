@@ -1,0 +1,144 @@
+[
+  {
+    "id": "cpr_adult",
+    "title": "CPR for Adults",
+    "description": "Cardiopulmonary resuscitation (CPR) is a lifesaving technique that's useful in many emergencies, such as a heart attack or near drowning, in which someone's breathing or heartbeat has stopped.",
+    "steps": [
+      "Check the scene for safety and tap the person to see if they respond.",
+      "Call 911 or ask someone else to do so.",
+      "Place the person on their back on a firm, flat surface.",
+      "Kneel beside the person's neck and shoulders.",
+      "Place the heel of one hand over the center of the person's chest, between the nipples.",
+      "Place your other hand on top of the first hand. Keep your elbows straight and position your shoulders directly above your hands.",
+      "Use your upper body weight to push straight down on the chest at least 2 inches but not more than 2.4 inches. Push hard at a rate of 100 to 120 compressions a minute.",
+      "If you haven't been trained in CPR, continue chest compressions until help arrives.",
+      "If you have been trained in CPR, go on to opening the airway and rescue breathing."
+    ],
+    "videoUrl": "https://example.com/videos/cpr_adult.mp4",
+    "imageUrl": "https://example.com/images/cpr_adult.jpg",
+    "dosList": [
+      "Push hard and fast",
+      "Allow complete chest recoil after each compression",
+      "Minimize interruptions in compressions",
+      "Use an AED as soon as it's available"
+    ],
+    "dontsList": [
+      "Don't push too slowly or too softly",
+      "Don't lean on the chest between compressions",
+      "Don't interrupt CPR unless absolutely necessary"
+    ],
+    "emergencyLevel": "high"
+  },
+  {
+    "id": "choking_adult",
+    "title": "Choking Relief for Adults",
+    "description": "Choking occurs when a foreign object becomes lodged in the throat or windpipe, blocking the flow of air. The Heimlich maneuver is an emergency technique to help clear the airway.",
+    "steps": [
+      "Stand behind the person and wrap your arms around their waist.",
+      "Tilt the person slightly forward.",
+      "Make a fist with one hand and place it slightly above the person's navel.",
+      "Grasp your fist with the other hand and press hard into the abdomen with a quick, upward thrust.",
+      "Repeat thrusts until the object is expelled or the person becomes unconscious.",
+      "If the person becomes unconscious, lower them to the ground and begin CPR."
+    ],
+    "videoUrl": "https://example.com/videos/choking_adult.mp4",
+    "imageUrl": "https://example.com/images/choking_adult.jpg",
+    "dosList": [
+      "Act quickly if you see someone choking",
+      "Use abdominal thrusts (Heimlich maneuver)",
+      "Call 911 if the object doesn't dislodge quickly"
+    ],
+    "dontsList": [
+      "Don't slap the person's back while they're upright",
+      "Don't give anything to drink",
+      "Don't perform abdominal thrusts on pregnant women or obese individuals (use chest thrusts instead)"
+    ],
+    "emergencyLevel": "high"
+  },
+  {
+    "id": "burns_treatment",
+    "title": "Burns Treatment",
+    "description": "Burns are tissue damage caused by heat, chemicals, electricity, sunlight, or radiation. First-degree burns affect only the outer layer of skin, second-degree burns affect both the outer and underlying layer of skin, and third-degree burns affect deeper tissues.",
+    "steps": [
+      "Ensure the person is no longer in contact with the burning source.",
+      "Remove jewelry, belts and tight clothing.",
+      "For minor burns (first-degree), cool the burn with cool (not cold) running water for 10 to 15 minutes.",
+      "Don't apply ice directly to the burn.",
+      "Apply lotion or moisturizer to prevent drying and provide relief.",
+      "For second-degree burns, follow the same cooling process but don't break blisters.",
+      "Cover the burn with a sterile, non-stick bandage.",
+      "For third-degree burns, call 911 immediately, cover the area with a clean cloth, and elevate the burned area above heart level if possible."
+    ],
+    "videoUrl": "https://example.com/videos/burns_treatment.mp4",
+    "imageUrl": "https://example.com/images/burns_treatment.jpg",
+    "dosList": [
+      "Cool the burn with cool running water",
+      "Cover with a clean, dry cloth",
+      "Take over-the-counter pain relievers if needed"
+    ],
+    "dontsList": [
+      "Don't use ice, as it may cause further damage",
+      "Don't apply butter, oil, or ointments to severe burns",
+      "Don't break blisters",
+      "Don't remove stuck clothing from burned areas"
+    ],
+    "emergencyLevel": "medium"
+  },
+  {
+    "id": "bleeding_control",
+    "title": "Bleeding Control",
+    "description": "Severe bleeding can be life-threatening and requires immediate action to control blood loss until medical help arrives.",
+    "steps": [
+      "Wash your hands if possible and put on gloves if available.",
+      "Remove any obvious debris or dirt from the wound.",
+      "Apply direct pressure to the wound using a clean cloth, gauze pad, or bandage.",
+      "Maintain pressure for 15 minutes.",
+      "If blood soaks through, add more gauze or cloth without removing the original material.",
+      "If the bleeding is from an arm or leg, elevate the limb above the heart while maintaining pressure.",
+      "If bleeding continues and you suspect an artery is involved, apply pressure to the appropriate pressure point (brachial for arm, femoral for leg).",
+      "As a last resort for life-threatening limb bleeding, apply a tourniquet if you have proper training.",
+      "Secure the wound with a bandage once bleeding stops.",
+      "Seek medical attention."
+    ],
+    "videoUrl": "https://example.com/videos/bleeding_control.mp4",
+    "imageUrl": "https://example.com/images/bleeding_control.jpg",
+    "dosList": [
+      "Apply direct pressure to the wound",
+      "Use clean materials if possible",
+      "Keep the injured person still and calm",
+      "Call 911 for severe bleeding"
+    ],
+    "dontsList": [
+      "Don't remove large or deeply embedded objects",
+      "Don't probe the wound",
+      "Don't remove the first cloth if it becomes soaked with blood",
+      "Don't apply a tourniquet unless you have proper training"
+    ],
+    "emergencyLevel": "high"
+  },
+  {
+    "id": "fracture_care",
+    "title": "Fracture Care",
+    "description": "A fracture is a broken bone. It requires proper immobilization and medical attention to ensure proper healing.",
+    "steps": [
+      "Stop any bleeding by applying pressure to the wound with a sterile bandage, a clean cloth, or a clean piece of clothing.",
+      "Immobilize the injured area. Don't try to realign the bone.",
+      "Apply ice packs wrapped in a cloth to limit swelling and help relieve pain.",
+      "Treat for shock if necessary by laying the person flat, elevating the feet about 12 inches, and covering them with a coat or blanket.",
+      "Call 911 or seek immediate medical help if the person is unresponsive, isn't breathing or moving, has heavy bleeding, or if you suspect a fracture in the neck, head, or back."
+    ],
+    "videoUrl": "https://example.com/videos/fracture_care.mp4",
+    "imageUrl": "https://example.com/images/fracture_care.jpg",
+    "dosList": [
+      "Immobilize the injured area",
+      "Apply ice to reduce swelling",
+      "Seek medical attention"
+    ],
+    "dontsList": [
+      "Don't move the person unless absolutely necessary",
+      "Don't attempt to straighten a broken bone",
+      "Don't move joints or bones near the injury"
+    ],
+    "emergencyLevel": "medium"
+  }
+]
